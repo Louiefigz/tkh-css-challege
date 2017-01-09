@@ -420,6 +420,10 @@ left: 0;
 
 .about b{
   padding-left: 30%;
+
+}
+.aboutb h1{
+  padding-left: -60%;
 }
 
 .aboutp h2{
@@ -431,9 +435,15 @@ left: 0;
 }
 
 .aboutb b{
-  padding-left: 33%;
+  padding-left: 36%;
 }
 
+@media screen and (max-width: 810px) {
+
+   .aboutb span1{
+     padding-right: 40%;
+   }
+}
 @media screen and (max-width: 992px) {
     span1 {
       padding-left: 250px;
@@ -441,8 +451,17 @@ left: 0;
    .aboutb b{
      padding-left: 0%;
    }
+   .venture{
+     margin-top: -220px;
+   }
 }
 
+
+@media screen and (max-width: 765px) {
+  .venture{
+    margin-top: 40px;
+  }
+}
 
 @media screen and (max-width: 645px) {
     #rotatescroll {
@@ -451,7 +470,8 @@ left: 0;
     span1{
       padding-left: 175px;
     }
-    .aboutb b{
+
+    .aboutb span1{
       padding-left: 0%;
     }
 }
@@ -460,7 +480,7 @@ left: 0;
         left: 15%;
     }
     span1{
-      padding-left: 100px;
+      /*padding-left: 100px;*/
     }
     #about{
       width: 120%;
