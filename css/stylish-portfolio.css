@@ -481,3 +481,7 @@ left: 0;
      float: left;
     }*/
 }
+
+#business3, #business2, #business1{
+  width: 500px;
+}
