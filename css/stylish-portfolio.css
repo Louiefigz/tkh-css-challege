@@ -14,7 +14,9 @@ body {
 
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
 }
+
 
 
 .text-vertical-center {
@@ -244,6 +246,13 @@ hr.small {
 .call-to-action {
     padding: 50px 0;
     background-color: #adc350;
+}
+.call-to-action ul{
+  list-style-type: none;
+}
+.call-to-action li span {
+  position: relative; left: -10px;
+  font-size: 1.7em;
 }
 
 .call-to-action .btn {
