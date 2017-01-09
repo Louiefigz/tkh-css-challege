@@ -473,6 +473,9 @@ left: 0;
     .aboutb b{
       float: left;
     }
+    .table th{
+      font-size: : 1.5em;
+    }
     /*.about b{
      float: left;
     }*/
