@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 
@@ -441,4 +441,10 @@ left: 0;
 
 .about b{
   padding-left: 30%
+}
+
+.about h1{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+  /*font-family: cursive;*/
+
 }
