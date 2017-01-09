@@ -514,3 +514,7 @@ left: 0;
 #business3, #business2, #business1{
   width: 500px;
 }
+
+#business2{
+  margin-top: 300px;
+}
