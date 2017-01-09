@@ -179,6 +179,7 @@ hr.small {
   color: white;
 }
 
+
 /* Services */
 
 .services {
@@ -436,4 +437,8 @@ left: 0;
     .call-to-action{
       width:120%;
     }
+}
+
+.about b{
+  padding-left: 30%
 }
