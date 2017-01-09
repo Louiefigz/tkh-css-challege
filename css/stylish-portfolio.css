@@ -255,6 +255,7 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: rgb(247, 176, 59);
 }
 
 #to-top {
@@ -400,6 +401,7 @@ left: 0;
 60% { top: -150px; }
 80% { top: -200px; }
 }
+
 
 
 
