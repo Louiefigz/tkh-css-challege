@@ -15,15 +15,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <!-- <link href="css/stylish-portfolio.css" rel="stylesheet"> -->
     <link href="css/contact.css" rel="stylesheet">
+    <!-- <link href="css/stylish-portfolio.css" rel="stylesheet"> -->
+
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <script type="text/javascript" src="lib/jquery.tinycircleslider.js"></script>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,6 +36,25 @@
 </head>
 
 <body>
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+          <li class="sidebar-brand">
+              <a href="index.html" onclick=$("#menu-close").click(); id="menuText">Habits Gear</a>
+          </li>
+          <li>
+              <a href="index.html" onclick=$("#menu-close").click(); id="menuText">Home</a>
+          </li>
+          <li>
+              <a href="#about" onclick=$("#menu-close").click(); id="menuText">About</a>
+          </li>
+
+          <li>
+              <a href="contact.html" onclick=$("#menu-close").click(); id="menuText">Contact</a>
+          </li>
+      </ul>
+  </nav>
 
     <h1>Contact Me Below</h1>
     <hr class="small">
