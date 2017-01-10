@@ -10,6 +10,9 @@ html,
 body {
     width: 100%;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body {
@@ -453,9 +456,63 @@ left: 0;
 }
 
 
+#business3, #business2, #business1{
+  width: 500px;
+}
+
+#business2{
+  margin-top: 300px;
+}
+#learn-more{
+  font-size: 2em;
+}
+td{
+  font-size: 1.3em;
+}
+td #tdButton{
+  font-size: 1em;
+}
+.foot h4{
+  font-size: 3em;
+}
+.foot p{
+  font-size: 2em;
+}
+.foot li{
+  font-size: 1.5em;
+}
+
+
+
+@media screen and (max-width: 810px) {
+
+   .aboutb span1{
+     padding-right: 40%;
+   }
+}
+@media screen and (max-width: 992px) {
+    span1 {
+      padding-left: 250px;
+   }
+   .aboutb b{
+     padding-left: 0%;
+   }
+   .venture{
+     margin-top: -220px;
+   }
+   #business2{
+     margin-top: 20px;
+   }
+}
+
+
 @media screen and (max-width: 765px) {
   .venture{
     margin-top: 40px;
+  }
+  .about-header{
+    display: block;
+    width: 100%;
   }
 }
 
@@ -495,54 +552,8 @@ left: 0;
       font-size: : 1.5em;
     }
 
+
     /*.about b{
      float: left;
     }*/
-}
-
-#business3, #business2, #business1{
-  width: 500px;
-}
-
-#business2{
-  margin-top: 300px;
-}
-#learn-more{
-  font-size: 2em;
-}
-td{
-  font-size: 1.3em;
-}
-td #tdButton{
-  font-size: 1em;
-}
-.foot h4{
-  font-size: 3em;
-}
-.foot p{
-  font-size: 2em;
-}
-.foot li{
-  font-size: 1.5em;
-}
-
-@media screen and (max-width: 810px) {
-
-   .aboutb span1{
-     padding-right: 40%;
-   }
-}
-@media screen and (max-width: 992px) {
-    span1 {
-      padding-left: 250px;
-   }
-   .aboutb b{
-     padding-left: 0%;
-   }
-   .venture{
-     margin-top: -220px;
-   }
-   #business2{
-     margin-top: 20px;
-   }
 }
