@@ -239,6 +239,7 @@ small {
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
+
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -281,12 +282,6 @@ small {
 }
 #menuText{
   font-size: 18px;
-  align: right;
-}
-
-@media screen and (max-width: 415px){
-
-  #sidebar-wrapper{
-    padding-top: 25px;
-  }
+  padding-top:20px;
+  top:20px;
 }
