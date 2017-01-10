@@ -465,6 +465,10 @@ left: 0;
    }
 }
 
+#IphoneScreen{
+  opacity: 0;
+}
+
 
 @media screen and (max-width: 765px) {
   .venture{
@@ -477,11 +481,12 @@ left: 0;
         left: 20%;
     }
     span1{
-      padding-left: 175px;
+      /*padding-left: 175px;*/
+      opacity: 0;
     }
 
-    .aboutb span1{
-      padding-left: 0%;
+    #IphoneScreen{
+      opacity:1;
     }
 }
 @media screen and (max-width: 375px) {
@@ -500,12 +505,13 @@ left: 0;
     .call-to-action{
       width:120%;
     }
-    .aboutb b{
-      float: left;
+    .aboutb span1{
+      opacity:0;
     }
     .table th{
       font-size: : 1.5em;
     }
+
     /*.about b{
      float: left;
     }*/
@@ -520,4 +526,19 @@ left: 0;
 }
 #learn-more{
   font-size: 2em;
+}
+td{
+  font-size: 1.3em;
+}
+td #tdButton{
+  font-size: 1em;
+}
+.foot h4{
+  font-size: 3em;
+}
+.foot p{
+  font-size: 2em;
+}
+.foot li{
+  font-size: 1.5em;
 }
