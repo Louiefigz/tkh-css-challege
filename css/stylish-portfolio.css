@@ -12,7 +12,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 body {
@@ -550,6 +550,19 @@ td #tdButton{
     }
     .table th{
       font-size: : 1.5em;
+    }
+    #headerText{
+      opacity: 0;
+      /*font-size: 4em;*/
+    }
+    #phoneHeaderText{
+      opacity: 1;
+      color: white;
+      font-size: 4em;
+      float: left;
+      padding-left: 10%;
+      text-shadow:4px 4px black;
+      margin-top: -30px;
     }
 
 
