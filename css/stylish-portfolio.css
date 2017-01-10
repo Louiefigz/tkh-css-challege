@@ -450,6 +450,9 @@ left: 0;
   padding-left: 36%;
 }
 
+#phoneHeaderText{
+  opacity: 0;
+}
 
 #IphoneScreen{
   opacity: 0;
@@ -506,6 +509,7 @@ td #tdButton{
 }
 
 
+
 @media screen and (max-width: 765px) {
   .venture{
     margin-top: 40px;
@@ -528,6 +532,22 @@ td #tdButton{
     #IphoneScreen{
       opacity:1;
     }
+    #headerText{
+      opacity: 0;
+      /*font-size: 4em;*/
+    }
+    #phoneHeaderText{
+      opacity: 1;
+      color: white;
+      font-size: 4em;
+      float: left;
+      padding-left: 10%;
+      text-shadow:4px 4px black;
+      margin-top: -30px;
+    }
+
+
+
 }
 @media screen and (max-width: 375px) {
     #rotatescroll {
@@ -551,19 +571,8 @@ td #tdButton{
     .table th{
       font-size: : 1.5em;
     }
-    #headerText{
-      opacity: 0;
-      /*font-size: 4em;*/
-    }
-    #phoneHeaderText{
-      opacity: 1;
-      color: white;
-      font-size: 4em;
-      float: left;
-      padding-left: 10%;
-      text-shadow:4px 4px black;
-      margin-top: -30px;
-    }
+
+
 
 
     /*.about b{
