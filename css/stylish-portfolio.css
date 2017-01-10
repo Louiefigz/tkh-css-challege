@@ -447,7 +447,7 @@ left: 0;
 }
 
 .aboutb b{
-  padding-left: 36%;
+  padding-left: 33%;
 }
 
 #phoneHeaderText{
@@ -508,6 +508,23 @@ td #tdButton{
    }
 }
 
+@media screen and (max-width: 992px){
+  .aboutb b{
+    /*display: inline-block;*/
+    padding-left: 3%;
+  }
+}
+@media screen and (max-width: 863px){
+  #IphoneScreen{
+    opacity:1;
+  }
+  span1{
+    opacity: 0;
+  }
+  #phoneHeaderText{
+    opacity: 0;
+  }
+}
 
 
 @media screen and (max-width: 765px) {
@@ -518,6 +535,7 @@ td #tdButton{
     display: block;
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 645px) {
