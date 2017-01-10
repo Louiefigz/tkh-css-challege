@@ -9,6 +9,7 @@ body {
 }
 
 #contact-form {
+  padding-top: 10%;
   max-width: 90%;
   margin: 0 auto;
 }
@@ -155,4 +156,8 @@ small {
 
 .website a {
   color: white;
+}
+
+.small{
+  line-height: 1;
 }
