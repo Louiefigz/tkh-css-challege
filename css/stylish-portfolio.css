@@ -563,25 +563,36 @@ td #tdButton{
       text-shadow:4px 4px black;
       margin-top: -30px;
     }
-
-
-
+}
+@media screen and (max-width: 414px){
+  #rotatescroll{
+    left:16%;
+  }
+  .about-header{
+    top: -19px;
+  }
+  .sidebar-brand{
+    top:-25px;
+  }
 }
 @media screen and (max-width: 375px) {
     #rotatescroll {
-        left: 15%;
+        left:10%;
     }
     span1{
       /*padding-left: 100px;*/
     }
-    #about{
+    /*#about{
       width: 120%;
-    }
-    #services{
+    }*/
+    /*#services{
       width: 120%;
-    }
-    .call-to-action{
+    }*/
+    /*.call-to-action{
       width:120%;
+    }*/
+    .about-header{
+      top: -19px;
     }
     .aboutb span1{
       opacity:0;
