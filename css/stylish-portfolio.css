@@ -177,7 +177,7 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 80%;
     background: url(http://fundydesigner.com/wp-content/uploads/2015/09/IBOverlay.jpg) no-repeat center center scroll;
 
     -webkit-background-size: cover;
