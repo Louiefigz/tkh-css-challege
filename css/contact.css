@@ -165,12 +165,13 @@ small {
 /* Side Menu */
 
 #sidebar-wrapper {
-  margin-top:-3%;
+  margin-top:-19px;
+  /*padding-top: 0px;*/
     z-index: 1000;
     position: fixed;
     right: 0;
     width: 250px;
-    height: 100%;
+    height: 120%;
     transform: translateX(250px);
     overflow-y: auto;
     background: #222;
@@ -198,8 +199,7 @@ small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    font-size: 1.5em;
-    /*float: left;*/
+    font-size: 0.5em;
     color: #999;
 }
 
@@ -281,7 +281,23 @@ small {
     margin: 5px 5px 0 0;
 }
 #menuText{
-  font-size: 18px;
-  padding-top:20px;
-  top:20px;
+  font-size: 16px;
+  padding-top:10px;
+  top:10px;
+  font-weight: bold;
+  /*float: left;*/
+  padding-right: 80%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+#menuHead{
+  font-size: 19px;
+  padding-top:10px;
+  font-weight: bold;
+  /*padding-right: 20px;*/
+  margin: 0;
+  padding-right: 65%;
+  /*top:15px;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
