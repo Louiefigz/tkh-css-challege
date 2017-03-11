@@ -165,7 +165,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/header-img.gif) no-repeat center center scroll;
+    background: url(../img/bbw.jpg) no-repeat center center scroll;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -190,9 +190,12 @@ hr.small {
 
 .about{
     padding: 50px 0;
-    background-color: #adc350;
+    background-color: #9a2395;
+    background: url(../img/bk1.jpg);
     /*color: white;*/
 }
+
+/* Purple color:   #9a2395*/
 .about h2, p{
   color: white;
 }
@@ -202,7 +205,8 @@ hr.small {
 
 .services {
     padding: 50px 0;
-    background-color: rgb(247, 176, 59);;
+    /*background-color: 	#ff5d5d;*/
+    background: url(../img/watercolor.jpg);
 }
 
 .service-item {
